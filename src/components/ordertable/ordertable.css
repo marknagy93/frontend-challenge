@@ -1,0 +1,117 @@
+.tableContainer {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.tableList > .table {
+    max-width: 1000px;
+    width: 91vw;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 21px #D0E4EF;
+    border-radius: 16px;
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+
+.tableContainer h1 {
+    width: 184px;
+    height: 32px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+
+    color: #102544;
+}
+
+.tablehead {
+    text-align: start;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    padding-bottom: 10px;
+
+    color: #102544;
+}
+
+.tabledata {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    color: #5C717C;
+}
+
+#thdate {
+    width: 200px;
+}
+
+#thpoint {
+    width: 400px;
+}
+
+#thweight {
+    width: 300px;
+}
+
+#thdeleteIcon {
+    width: 50px;
+}
+
+#theditIcon {
+    width: 50px;
+}
+
+#iconDelete {
+    transition: 0.5s;
+}
+
+#iconDelete:hover {
+    transition: 0.5s;
+    color: #17C873;
+}
+
+#iconEdit {
+    transition: 0.5s;
+}
+
+#iconEdit:hover {
+    transition: 0.5s;
+    color: #17C873;
+}
+
+.hidden {
+    display: none;
+}
+
+#save {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background: #17C873;
+    border: 0px solid #d4d4d4;
+    border-radius: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
